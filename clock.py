@@ -12,9 +12,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Mickey Mouse Clock")
 
 
-background = pygame.image.load('Image/clock.png')
-minute_hand = pygame.image.load('Image/arm1.png')
-second_hand = pygame.image.load('Image/arm2.png')
+background = pygame.image.load('clock.png')
+minute_hand = pygame.image.load('arm1.png')
+second_hand = pygame.image.load('arm2.png')
 
 
 minute_hand = pygame.transform.scale(minute_hand, (500, 500))
